@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>projekt_kveten</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="obrazky\CyberTruck.jpg" />
+    <None Remove="obrazky\Tesla_Model_3.jpg" />
+    <None Remove="obrazky\Tesla_Model_S.jpg" />
+    <None Remove="obrazky\Tesla_Model_X.jpg" />
+    <None Remove="obrazky\Tesla_Model_Y.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obrazky\CyberTruck.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="obrazky\Tesla_Model_3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="obrazky\Tesla_Model_S.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="obrazky\Tesla_Model_X.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="obrazky\Tesla_Model_Y.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Web\" />
+  </ItemGroup>
+
+</Project>
